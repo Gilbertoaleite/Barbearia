@@ -29,9 +29,10 @@ nav a{
 }
 
 nav a:hover{
-   border-bottom: 1px solid orange;
-   color: orange;
+   border-bottom: #2222ff 2px solid;
+   box-shadow: 0 0 60px #00ff;
    transition: 1.2s;
+   /* text-decoration: #2222ff underline; */
 }
 
 .produtos{
@@ -45,9 +46,22 @@ nav a:hover{
 .produtos li{
    display: inline-block;
    text-align: center;
-   border: #000000 1px solid;
    width: 30%;
    vertical-align: top;
+   border:  2px #000000 solid;
+   border-radius: 10px;
+   margin: 0 1.5%;
+   padding: 30px 20px;
+   box-sizing: border-box;
+   
+}
+
+.produtos li:hover{
+   transform: scale(110%);
+   cursor: pointer;
+   border: #2222ff 2px solid;
+   box-shadow: 0 0 60px #00ff;
+   border-radius: 10px;
    
 }
 
@@ -61,5 +75,23 @@ nav a:hover{
 .produto-preco{
    font-weight: bold;
    font-size: 22px;
+   margin-top: 10px;
+}
+
+footer {
+   text-align: center;
+   background: url("../img/bg.jpg");
+   padding: 20px 0;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: bold;
+
+}
+.rodape{
+   padding: 20px 0;
+}
+.rodape a{
+   color: #2222ff;
+   text-decoration: none;
 }
 

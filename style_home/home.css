@@ -3,31 +3,61 @@
 body {
 	font-family: sans-serif;
 }
+header{
+   background-color: #bbbbbb;
+   padding: 20px 0;
+}
+.caixa{
+   position: relative;
+   width: 940px;
+   margin: 0 auto;
+}
+nav{
+   position: absolute;
+   top: 110px;
+   right: 0;
+}
 
-header {
-	font-size: 2.6rem;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	background-color: #bebebe;
-	border-radius: 9px;
-	border: 2px solid blue;
-	/* text-align: center; */
+nav li{
+   display: inline;
+   margin: 0 0 0 15px;
+   
+
+}
+nav a{
+   text-transform: uppercase;
+   color: #000000;
+   font-weight: bold;
+   font-size: 22px;
+   text-decoration: none;
+   
+}
+
+nav a:hover{
+   border-bottom: #2222ff 2px solid;
+   box-shadow: 0 0 60px #00ff;
+   transition: 1.2s;
+   /* text-decoration: #2222ff underline; */
 }
 
 .main {
 	color: #000000;
-
-	background-color: #cccccc;
-	padding: 30px;
+   background-color: #cccccc;
+	position: relative;
+   width: 100%;
+   margin: 0 auto;
 }
 
-h1,
+
 h2 {
 	text-align: center;
 }
 
-#banner {
+.banner {
 	width: 100%;
+   margin: 0 auto;
+   
+	
 }
 .negrito {
 	font-weight: bold;
@@ -44,12 +74,12 @@ p {
 	font-style: italic;
 }
 
-ul {
+/* ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
-}
+} */
 
 .imgbeneficios {
 	max-width: 50%;
@@ -59,3 +89,21 @@ ul {
 	background: #ffffff;
 	padding: 20px;
 }
+
+footer {
+   text-align: center;
+   background: url("/img/bg.jpg");
+   padding: 20px 0;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: bold;
+
+}
+.rodape{
+   padding: 10px 0;
+} 
+.rodape a{
+   color: #2222ff;
+   text-decoration: none;
+}
+

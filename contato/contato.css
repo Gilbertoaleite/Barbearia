@@ -1,0 +1,73 @@
+/** @format */
+
+header {
+	background-color: #bbbbbb;
+	padding: 20px 0;
+   
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border-bottom: #2222ff 2px solid;
+	box-shadow: 0 0 60px #00ff;
+	transition: 1.2s;
+	/* text-decoration: #2222ff underline; */
+}
+main {
+   
+	width: 940px;
+	margin: 0 auto;
+   padding: 25px;
+}
+
+form {
+	margin: 40px 0;
+}
+form label {
+   display: block;
+   font-size: 20px;
+   margin: 0 0 10px;
+}
+form input {
+   display: block;
+   margin: 0 0 20px;
+   padding: 10px 25px;
+   width: 50%;
+}
+
+footer {
+	text-align: center;
+	background: url('../img/bg.jpg');
+	padding: 20px 0;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.rodape {
+	padding: 20px 0;
+}
+.rodape a {
+	color: #2222ff;
+	text-decoration: none;
+}
