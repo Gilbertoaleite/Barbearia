@@ -3,7 +3,6 @@
 header {
 	background-color: #bbbbbb;
 	padding: 20px 0;
-   
 }
 .caixa {
 	position: relative;
@@ -35,25 +34,25 @@ nav a:hover {
 	/* text-decoration: #2222ff underline; */
 }
 main {
-   
 	width: 940px;
 	margin: 0 auto;
-   padding: 25px;
+	padding: 25px;
 }
 
 form {
 	margin: 40px 0;
 }
-form label {
-   display: block;
-   font-size: 20px;
-   margin: 0 0 10px;
+form label,
+form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
-form input {
-   display: block;
-   margin: 0 0 20px;
-   padding: 10px 25px;
-   width: 50%;
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
 footer {
@@ -70,4 +69,41 @@ footer {
 .rodape a {
 	color: #2222ff;
 	text-decoration: none;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+thead {
+	background: #555555;
+	color: #ffffff;
+	font-weight: bold;
+	
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding:8px 15px ;
 }
