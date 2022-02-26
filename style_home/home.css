@@ -92,6 +92,8 @@ h2 {
    margin: 0 0 1em;
    clear: left;
    font-weight: normal;
+   /* color:rgba(9, 9,9, 0.5); */
+   /* text-shadow: 2px 2px red; */
 }
 
 /* exemplos de before e after */
@@ -150,6 +152,7 @@ content: "]";
 
 .beneficios {
 	background: #888888;
+   /* box-sizing: inset 0 0 30px #ff0000; */
    padding: 3em 0;
    /* width: 940px;
    margin: 0 auto; */
@@ -183,9 +186,16 @@ content: "]";
 
 #imgbeneficios {
 	width: 60%;
+   opacity:1;
+   transition: 400ms;
+   box-shadow: 10px 10px 10px #000000;
    /* text-align: center;
    margin: 20px 0 10px 30px; */
    
+}
+#imgbeneficios:hover {
+   opacity:0.3;
+
 }
 .video{
    width:560px;
@@ -208,5 +218,24 @@ footer {
 .rodape a{
    color: #2222ff;
    text-decoration: none;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 480px) {
+   .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+      width: auto;
+
+   }
+   h1{
+      text-align: center;
+   }
+   nav{
+      position: static;
+   }
+
+   .list-group-item, .imgbeneficios{
+      width: 100%;
+   }
 }
 
