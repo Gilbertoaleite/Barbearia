@@ -222,9 +222,12 @@ footer {
 
 /* Responsividade */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 844px) {
+
    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
       width: auto;
+      margin: 0 auto;
+      padding: 5%;
 
    }
    h1{
